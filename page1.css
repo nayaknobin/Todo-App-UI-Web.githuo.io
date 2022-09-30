@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+.upper-container1{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#lists{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlists{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    opacity: 0.6;
+    padding-top: 25px;
+}
+.card{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+.card1{
+    border: 1.5px solid rgb(245, 60, 60);
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 50px;
+    font-weight: lighter;
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: rgb(228, 87, 87);
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 22.5px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 21px;
+}
+
+#check{
+    width: 19px;
+    height: 19px;
+    margin-left: 10px;
+}
